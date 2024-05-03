@@ -33,9 +33,9 @@ void CleanupRenderTarget();
 WPARAM MapLeftRightKeys(const MSG& msg);
 
 // Boykisser Central Vars
-std::string BKCImGuiHooker::c_Title = "Boykisser Central";
-std::string BKCImGuiHooker::c_RealBuild = "v2.1";
-static std::string c_Build = ":3";
+std::string BKCImGuiHooker::c_Title = "Skeet";
+std::string BKCImGuiHooker::c_RealBuild = "<3";
+static std::string c_Build = " :3";
 std::stringstream full_title;
 std::string combo_file = "default";
 static char input_file[32] = "default";
