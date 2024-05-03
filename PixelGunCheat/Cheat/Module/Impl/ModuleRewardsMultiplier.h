@@ -3,7 +3,7 @@
 #include "../../Gui/imgui_hooker.h"
 
 class ModuleBase;
-static BKCSliderInt __rewards_multiplier_amount = BKCSliderInt("Amount",  10, 1, 250);
+static BKCSliderInt __rewards_multiplier_amount = BKCSliderInt("Amount",  10, 1, 1000);
 static BKCModule __rewards_multiplier = { "Rewards Multiplier", EXPLOIT, 0x0, false, {&__rewards_multiplier_amount} };
 
 class ModuleRewardsMultiplier : ModuleBase
